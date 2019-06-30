@@ -58,6 +58,7 @@ $(function() {
       var ulTodos = $('.todo-list');
       ulTodos.append(htmlString);
       $('.toggle').change(toggleTask);
+      $('.new-todo').val('');
     });
   });
 
